@@ -1,0 +1,82 @@
+.col-lg-10{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#sidebar{
+    background-image: linear-gradient(orange,black);
+    color: whitesmoke;
+    height: auto;
+}
+.nav-link{
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color: brown;
+}
+.btn-transparent{
+    color: whitesmoke;
+}
+.btn-transparent:hover{
+    color: whitesmoke;
+    border: 1px solid orange;
+}
+.offcanvas{
+    background-image: linear-gradient(orange,black);
+    color: whitesmoke;
+}
+.navbar{
+    height: 101px;
+    display: none;
+    background-image: linear-gradient(orange,black);
+}
+#offcanvass{
+    display: none;
+}
+#judul2{
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+#judul{
+    margin-top: 7px;
+}
+.footer { 
+    position: relative; 
+    text-align: center;
+    /* background-color: black; */
+    background-image: linear-gradient(orange,black);
+    bottom: 0; 
+    width: auto;
+    height: 100px;
+    left: 0; 
+    z-index: 10;
+}
+.text-copy{
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: 20px;
+}
+/* mobile */
+@media only screen and (max-width: 1200px) {
+    .col-lg-10{
+        width: 100%;
+    }
+    #judulmob{
+        color: whitesmoke;
+    }
+    #offcanvass{
+        display: inline;
+        width: 10%;
+        margin-left: 40px;
+        margin-top: 5px;
+        text-align: center;
+        display: block;
+    }
+    #sidebar{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        width: auto;
+    }
+  }
